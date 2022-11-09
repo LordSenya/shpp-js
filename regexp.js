@@ -1,5 +1,5 @@
 function mailValidation(mail) {
-   return mail.match(/^[a-z\d][a-z\d-.+]{1,19}@[a-z.!$%&’*+/=?^_-]{1,15}\.[a-z]{1,5}$/i) != null;
+   return mail.match(/^[a-z\d][a-z\d-.+]{1,19}@[\w.!$%&’*+/=?^_-]{1,15}\.[a-z]{1,5}$/i) != null;
 
 }
 
